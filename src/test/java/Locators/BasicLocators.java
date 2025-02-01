@@ -13,6 +13,7 @@ public class BasicLocators {
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://cortex.firstbaseit.net/cortexui/#/login");
 		driver.manage().window().maximize();
+		//changes as part of next day
 		/* WebElement Downloadlink=driver.findElement(By.linkText("Download"));
 		Downloadlink.click(); 
 		WebElement Bloglink=driver.findElement(By.linkText("Blog"));
